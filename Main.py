@@ -1,5 +1,6 @@
 import os
 import socket
+Import time
 from IPy import IP
 
 os.system("clear")
@@ -32,7 +33,7 @@ me1 = input("\033[0;36m[~]====>>>> \033[0;37m")
 def scan_port(ipadd,port):
     try:
         sock = socket.socket()
-        sock.settimeout(0.5)
+        time.sleep(0.5)
         sock.connect((ipadd,int(port)))
         print("\033[0;32m[+] Port " ,int(port), " is Open")
     except:
