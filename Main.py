@@ -2,7 +2,7 @@ import os
 import socket
 from IPy import IP
 
-system.os("clear")
+os.system("clear")
 
 print('''
 ╭━━━╮╱╱╱╱╭╮╱╱╱╱╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱
