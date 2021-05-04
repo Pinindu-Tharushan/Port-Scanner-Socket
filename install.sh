@@ -18,6 +18,5 @@ $$ |$$ |  $$ |$$$$$$$  |  \$$$$  |\$$$$$$$ |$$ |$$ |$$ |$$ |  $$ |\$$$$$$$ |$$\ 
 pip install IPy
 pkg install python2
 pkg install python3
-clear 
-xdg-open https://wa.me/+94702801713
 python Main.py
+xdg-open https://wa.me/+94702801713
