@@ -2,11 +2,17 @@ import socket
 from IPy import IP
 import os
 
-os.system("clear")
+
+try:
+	system.os("clear")
+except:
+	system.os("cls")
+except:
+	print()
 
 print('''
 ╭━━━╮╱╱╱╱╭╮╱╭━━━╮
-┃╭━╮┃╱╱╱╭╯╰╮┃╭━╮┃\033[0;31mv2.5
+┃╭━╮┃╱╱╱╭╯╰╮┃╭━╮┃\033[0;31mv1.0
 ┃╰━╯┣━━┳┻╮╭╯┃╰━━┳━━┳━━┳━╮╭━╮╭━━┳━╮
 ┃╭━━┫╭╮┃╭┫┃╱╰━━╮┃╭━┫╭╮┃╭╮┫╭╮┫┃━┫╭╯
 \033[0;37m┃┃╱╱┃╰╯┃┃┃╰╮┃╰━╯┃╰━┫╭╮┃┃┃┃┃┃┃┃━┫┃
@@ -16,7 +22,8 @@ print('''
 \033[0;33m|\033[0;32m# Code By Pinindu Tharushan                  \033[0;33m|
 \033[0;33m|\033[0;32m  Contact On Whatsapp +94702801713           \033[0;33m|
 \033[0;33m|\033[0;32m# Tutorial By Cyber Master                   \033[0;33m|
-\033[0;33m|\033[0;32m# Tutorial By oXR                            \033[0;33m|
+\033[0;33m|\033[0;32m# Tutorial By xOR                            \033[0;33m|
+\033[0;33m|\033[0;32m# Tutorial Black hat                         \033[0;33m|
 \033[1;36m =============================================\033[1;m
 \033[1;33m|            BEST WEB PORT SCANNER            |
 \033[1;36m =============================================\033[00m''')
