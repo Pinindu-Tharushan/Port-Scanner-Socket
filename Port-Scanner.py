@@ -5,7 +5,7 @@ import os
 
 try:
 	os.system("clear")
-except
+except:
 	os.system("cls")
 
 print('''
